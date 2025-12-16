@@ -1,9 +1,11 @@
-number=5
+try:
+    number=int(input("Enter the number"))
 
-if number%2==0:
-    print("Even Number")
-else:
-    print("Odd Number")
+    if number%2==0:
+        print("Even Number")
+    else:
+        print("Odd Number")
 
-print("The Number is",number)
-
+    print("The Number is",number)
+except:
+    pass
