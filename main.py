@@ -8,4 +8,4 @@ try:
 
     print("The Number is",number)
 except:
-    pass
+    print("Error Occured")
